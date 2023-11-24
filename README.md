@@ -72,6 +72,6 @@ balloon.py 38번째의 코드인 기존에 있던 ROOT_DIR 값을 절대 경로�
 
 <p align = "left"><img src = "assets/balloon_test2.png" width = "400"></p>
 **test 전**
-<p align = "left"><img src = "assets/balloon_sample2.png" width = "500"></p>
+<p align = "left"><img src = "assets/balloon_sample2.jpg" width = "500"></p>
 **test 결과**
 <p align = "left"><img src = "assets/balloon_color_splash_2.png" width = "500"></p>
