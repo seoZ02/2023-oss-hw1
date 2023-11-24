@@ -45,7 +45,7 @@ balloon.py 38번째의 코드인 기존에 있던 ROOT_DIR 값을 절대 경로�
 
     ROOT_DIR = os.path.abspath("C:/Users/lsjlc/coding/Mask_RCNN")
 
-<p align = "left"><img src = "assets/root.png" width = "100"></p>
+<p align = "left"><img src = "assets/root.png" width = "400"></p>
   
 - **모델 학습**
 
@@ -64,5 +64,10 @@ balloon.py 38번째의 코드인 기존에 있던 ROOT_DIR 값을 절대 경로�
     - epoch은 전체 데이터에 대한 한번의 학습(forward 와 backward 포함)을 의미
     - 100회씩 30번 반복하며 100회마다 가중치 모델이 갱신되어 경로에 저장된다. 1epoch 실행 시 mask_rcnn_balloon_0001.h5로, 매번 학습이 됨으로써 더 좋은 학습 결과를 얻을 수 있기 때문에 총 30epoch을 실행한 가중치 파일 mask_rcnn_balloon_0030.h5 을 사용하였다.
 
+
+<p align = "left"><img src = "assets/balloon_train.png" width = "400"></p>
+
 ### 학습이 완료된 가중치 모델을 이용하여 결과 확인
     python Mask_RCNN/samples/balloon/balloon.py splash --weights=coding/Mask_RCNN/logs/balloon20231117T2356/mask_rcnn_balloon_0030.h5 --image=coding/Mask_RCNN/samples/balloon/balloon/val/3800636873_ace2c2795f_b.jpg
+
+<p align = "left"><img src = "assets/balloon_test2.png" width = "400"></p>
