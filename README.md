@@ -44,6 +44,8 @@
 balloon.py 38번째의 코드인 기존에 있던 ROOT_DIR 값을 절대 경로로 수정해주어야 한다.
 
     ROOT_DIR = os.path.abspath("C:/Users/lsjlc/coding/Mask_RCNN")
+
+<p align = "left"><img src = "assets/root.png" width = "100"></p>
   
 - **모델 학습**
 
