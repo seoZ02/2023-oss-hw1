@@ -1,5 +1,5 @@
 # 2023-oss-hw1
-[MASK RCNN] Baloon.py Train / Test
+[MASK RCNN] Baloon.py Train / Test - 인공지능전공 202111616 이서정
 
 
 ## 개요
