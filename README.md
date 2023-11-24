@@ -17,7 +17,7 @@
 - **버전 수정**
 
 
-기존의 아나콘다 프롬프트에는 tensorflow 2.0이 설치되어 있는데 Mask R-CNN은 tensorflow의 버전이 1.14일 때 만들어졌을 것으로 추정되기 때때문에 아래와 같이 버전을 바꿔서 설치한다.
+기존의 아나콘다 프롬프트에는 tensorflow 2.0이 설치되어 있는데 Mask R-CNN은 tensorflow의 버전이 1.14일 때 만들어졌을 것으로 추정되기 때문에 아래와 같이 버전을 바꿔서 설치한다.
 
     pip install tensorflow-gpu==1.14.0 keras==2.1.3
 
@@ -25,14 +25,15 @@
 - **balloon dataset 다운로드**
 
 
-아래의 사이트 사이트에서 balloon dataset을 다운받는다.
-
-
-<https://github.com/matterport/Mask_RCNN/releases>
-
   - balloon_dataset.zip : _MACOS에서 가능한 폴더를 제외한 train, val에 대한 balloon dataset을  Mask_RCNN/sample/ballon폴더의 하위 폴더에 추가
 
   - mask_rcnn_balloon.h5 : 제공되는 balloon dataset을 이용하여 미리 학습시켜둔 가중치 COCO 모델 파일(*.h5)로, coco weights는 training시에 사용되니 같은 root안에 다운 받을 것을 권장
+
+
+아래의 사이트에서 위 설명과 같이 balloon dataset을 다운받는다.
+
+
+<https://github.com/matterport/Mask_RCNN/releases>
 
 
 ## 🖥️ Train
