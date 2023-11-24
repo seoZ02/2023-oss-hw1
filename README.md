@@ -3,8 +3,8 @@
 
 
 ## 개요
-- Mask R-CNN에 대해 알아보고 Sample Code인 Balloon.py를 트레이닝 시킨다.
-- 트레이닝 후 얻은 가중치를 이용해 풍선 부분을 segmentation 한 결과를 보여준다.
+- Mask R-CNN에서 제공되는 Sample Code인 Balloon.py를 트레이닝한다.
+- 트레이닝 후 얻은 가중치를 이용해 풍선 부분을 segmentation 한 결과를 확인한다.
 
 
 ## ⚙️ 환경 설정
@@ -45,7 +45,7 @@ balloon.py 38번째의 코드인 기존에 있던 ROOT_DIR 값을 절대 경로�
 
     ROOT_DIR = os.path.abspath("C:/Users/lsjlc/coding/Mask_RCNN")
 
-<p align = "left"><img src = "assets/root.png" width = "400"></p>
+<p align = "left"><img src = "assets/root.png" width = "300"></p>
   
 - **모델 학습**
 
@@ -71,3 +71,7 @@ balloon.py 38번째의 코드인 기존에 있던 ROOT_DIR 값을 절대 경로�
     python Mask_RCNN/samples/balloon/balloon.py splash --weights=coding/Mask_RCNN/logs/balloon20231117T2356/mask_rcnn_balloon_0030.h5 --image=coding/Mask_RCNN/samples/balloon/balloon/val/3800636873_ace2c2795f_b.jpg
 
 <p align = "left"><img src = "assets/balloon_test2.png" width = "400"></p>
+**test 전**
+<p align = "left"><img src = "assets/balloon_sample2.png" width = "500"></p>
+**test 결과**
+<p align = "left"><img src = "assets/balloon_color_splash_2.png" width = "500"></p>
