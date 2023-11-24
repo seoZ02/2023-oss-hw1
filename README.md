@@ -71,7 +71,16 @@ balloon.py 38번째의 코드인 기존에 있던 ROOT_DIR 값을 절대 경로�
     python Mask_RCNN/samples/balloon/balloon.py splash --weights=coding/Mask_RCNN/logs/balloon20231117T2356/mask_rcnn_balloon_0030.h5 --image=coding/Mask_RCNN/samples/balloon/balloon/val/3800636873_ace2c2795f_b.jpg
 
 <p align = "left"><img src = "assets/balloon_test2.png" width = "400"></p>
-**test 전**
+
+
 <p align = "left"><img src = "assets/balloon_sample2.jpg" width = "500"></p>
-**test 결과**
+
+#### test 전
+
 <p align = "left"><img src = "assets/balloon_color_splash_2.png" width = "500"></p>
+
+#### test 결과
+
+
+
+
